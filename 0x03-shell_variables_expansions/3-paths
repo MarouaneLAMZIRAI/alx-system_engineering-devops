@@ -1,0 +1,3 @@
+#!/bin/bash
+IFS=":" read -ra paths <<< "$PATH"
+echo "${#paths[@]}"
