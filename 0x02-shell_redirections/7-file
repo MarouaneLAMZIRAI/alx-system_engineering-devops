@@ -2,4 +2,3 @@
 file_name='*\'"Best School"\'*\*\$\?\*\*\*\*\*\:)'
 text="Best School"
 echo -e "$text" > "$file_name"
-echo "File '$file_name' created with the text 'Best School' ending with a new line."
