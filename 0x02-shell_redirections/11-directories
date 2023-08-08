@@ -1,0 +1,8 @@
+#!/bin/bash
+count=0
+for entry in $(ls -d */ 2>/dev/null); do
+    if [[ "$entry" != "./" && "$entry" != "../" ]]; then
+        ((count++))
+    fi
+done
+echo $count
