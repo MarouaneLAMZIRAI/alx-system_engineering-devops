@@ -1,6 +1,2 @@
 #!/bin/bash
-echo "$(set -o posix; set)"
-echo
-printenv
-echo
-declare -F
+(set -o posix; set); printenv; declare -F
